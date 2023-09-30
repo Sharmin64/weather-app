@@ -7,7 +7,7 @@
 
 body {
   background: #222;
-  background-image: url("/images/weather/webap.jfif");
+  background-image: url("/images/weather/sky-weather.jpg");
   max-height: fit-content;
   width: auto;
   background-repeat: no-repeat;
@@ -18,8 +18,10 @@ body {
 .card {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #00feba, #5b548a);
-  color: #fff;
+  background: linear-gradient(135deg, #00bafeae, #f25c49e1);
+  /*opacity: 30%;*/
+  font-weight: bold;
+  color: #080000;
   margin: 100px auto 0;
   border-radius: 20px;
   padding: 40px 35px;
