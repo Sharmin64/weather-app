@@ -7,6 +7,12 @@
 
 body {
   background: #222;
+  background-image: url("/images/weather/webap.jfif");
+  max-height: fit-content;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card {
