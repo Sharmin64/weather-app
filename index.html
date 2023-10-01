@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Weather App</title>
   <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
   <div class="card">
     <div class="search">
-  <input type="text" placeholder="enter city name" spellcheck="false">
-  <button class="btn"><img src="images/search.png" alt=""></button>
+      <input type="text" placeholder="enter city name" spellcheck="false">
+      <button class="btn"><img src="images/search.png" alt=""></button>
+    </div>
+    <div class="error">
+      <p>Invalid City Name</p>
     </div>
     <div class="weather">
       <img src="images/rain.png" class="weather-icon">
@@ -19,17 +24,17 @@
       <div class="details">
         <div class="col">
           <img src="images/humidity.png">
-         <div>
-          <p class="humidity">80%</p>
-          <p>Humidity</p>
-         </div>
+          <div>
+            <p class="humidity">80%</p>
+            <p>Humidity</p>
+          </div>
         </div>
         <div class="col">
           <img src="images/wind.png">
-         <div>
-          <p class="wind">21 km/h</p>
-          <p>Wind Speed</p>
-         </div>
+          <div>
+            <p class="wind">21 km/h</p>
+            <p>Wind Speed</p>
+          </div>
         </div>
       </div>
     </div>
@@ -38,4 +43,5 @@
 
   <script src="js-folder/index.js"></script>
 </body>
+
 </html>
