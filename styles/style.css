@@ -7,7 +7,7 @@
 
 body {
   background: #222;
-  background-image: url("/images/weather/sky-weather.jpg");
+  background-image: url("./images/weather/sky-weather.jpg");
   max-height: fit-content;
   width: auto;
   background-repeat: no-repeat;
@@ -19,7 +19,6 @@ body {
   width: 90%;
   max-width: 470px;
   background: linear-gradient(135deg, #00bafeae, #f25c49e1);
-  /*opacity: 30%;*/
   font-weight: bold;
   color: #080000;
   margin: 100px auto 0;
@@ -48,9 +47,10 @@ body {
   font-size: 18px;
 }
 
-.search button {
+.search .btn {
   border: 0;
   outline: 0;
+  /*display: block;*/
   background: #ebfffc;
   width: 60px;
   border-radius: 50%;
@@ -58,7 +58,7 @@ body {
   cursor: pointer;
 }
 
-.search button img {
+.search .btn img {
   width: 16px;
 }
 
@@ -115,4 +115,15 @@ body {
   margin-top: 10px;
   color: brown;
   display: none;
+}
+
+
+@media (max-width: 400px) {
+  .search .btn {
+    display: inline-flex;
+    width: 100px;
+    margin-top: 0;
+  }
+
+
 }
