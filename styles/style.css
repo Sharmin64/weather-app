@@ -7,7 +7,7 @@
 
 body {
   background: #222;
-  background-image: url("./weather/sky-weather.jpg");
+  background-image: url("/images/weather/sky-weather.jpg");
   max-height: fit-content;
   width: auto;
   background-repeat: no-repeat;
